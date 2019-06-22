@@ -84,12 +84,12 @@ export default class UserCrud extends Component {
             <button className="btn btn-primary"
               onClick={e => this.save(e)}>
               Salvar
-                        </button>
+            </button>
 
             <button className="btn btn-secondary ml-2"
               onClick={e => this.clear(e)}>
               Cancelar
-                        </button>
+            </button>
           </div>
         </div>
       </div>
@@ -148,6 +148,7 @@ export default class UserCrud extends Component {
   }
 
   render() {
+    console.log(this.state.list)
     return (
       <Main {...headerProps}>
         {this.renderForm()}
