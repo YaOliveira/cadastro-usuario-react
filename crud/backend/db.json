@@ -1,11 +1,14 @@
 {
-  "users": [{
-    "id": 1,
-    "name": "Yara Oliveira",
-    "email": "yoliveira@empresa.com"
-  }, {
-  "id": 2,
-  "name": "Bruno Nakamura",
-  "email": "bn@empresa.com"
-  }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Yara Oliveira",
+      "email": "yoliveira@empresa.com"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Nax",
+      "email": "bn@empresa.com"
+    }
+  ]
 }
